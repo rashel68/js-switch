@@ -82,4 +82,36 @@ for(var i = 0; i<number.length; i++){
 }
 
 
+var question = 'd';
+var result;
+switch(question){
+    case 'a':
+        result = 'You Entered Result A';
+        break;
+    case 'b':
+        result = 'You Entered Result B';
+        break;
+    case 'c':
+        result = 'You Entered Result C'
+        break;
+    case 'd':
+        result = 'You Entered Result D'
+        break;
+    default:
+        result = 'Invalid Result';
+}
+// console.log(result);
 
+var num = 5;
+var evenNumber = 'Your Enterd a Enven Number';
+var oddNumber = 'You Entered a Odd Number';
+switch(num%2){
+    case 0:
+        console.log(evenNumber);
+        break;
+    case 1:
+        console.log(oddNumber);
+        break;
+    default:
+        console.log('Invalid Number')
+}
